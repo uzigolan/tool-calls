@@ -1,0 +1,5 @@
+{
+  "name": "uzi-mods",
+  "owner": { "name": "uzi" },
+  "plugins": [{ "name": "tool-calls", "source": "./" }]
+}
