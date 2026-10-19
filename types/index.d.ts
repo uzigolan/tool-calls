@@ -1,7 +1,14 @@
-export type ToolCall = { id: string; tool: string; isDone: boolean }
+export type ToolCall = {
+  id: string
+  tool: string
+  isDone: boolean
+}
 
-declare module 'claude-code' {
+declare global {
   interface PluginState {
-    'tool-calls': { calls: ToolCall[] }
+    'tool-calls-sidebar': {
+      calls: ToolCall[]
+      isPaneOpen: boolean
+    }
   }
 }

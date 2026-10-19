@@ -1,6 +1,6 @@
 {
-  "name": "tool-calls",
+  "name": "tool-calls-sidebar",
   "version": "0.1.0",
-  "description": "Pane that lists the tool calls of the session",
+  "description": "Sidebar icon for tool calls pane with toggle functionality",
   "types": "./types/index.d.ts"
 }
